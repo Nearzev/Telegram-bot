@@ -39,7 +39,7 @@ function start () {
         if (text === 'ты тупой' || text === 'ты глупый' || text === 'ты тупой?' || text === 'ты глупый?') {
             return bot.sendSticker(chatId, 'https://tlgrm.ru/_/stickers/0b1/31b/0b131ba6-af59-4dbe-a0cb-5abcda5bc6be/7.webp')
         }
-        if(text === 'Спасибо') {
+        if(text === 'Спасибо' || text === 'спасибо' || text === 'Спc' || text === 'спасиб' || text === 'сенкс') {
             return bot.sendSticker(chatId, `https://tlgrm.ru/_/stickers/0b1/31b/0b131ba6-af59-4dbe-a0cb-5abcda5bc6be/192/22.webp`)
         }
         await bot.sendSticker(chatId, 'https://tlgrm.ru/_/stickers/0b1/31b/0b131ba6-af59-4dbe-a0cb-5abcda5bc6be/8.webp')
